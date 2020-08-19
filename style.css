@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap");
 
-body {
+.main-container {
   background-image: url(https://microsofters.com/wp-content/uploads/2018/09/w10-wallpaper.jpg);
   background-size: cover;
   font-family: "Maven Pro", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-wrapper {
   background-color: #fafafa;
   display: flex;
   flex-direction: row;
-  max-width: 1024px;
-  margin: 0 auto;
+  width: 1024px;
 }
 
 .login-wrapper .form-wrapper {
   padding: 35px 45px;
-  width: 370px;
 }
 
 .login-wrapper .form-wrapper .form-header {
